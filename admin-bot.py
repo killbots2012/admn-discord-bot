@@ -31,7 +31,20 @@ async def _8ball(ctx, *,question):
                 "I say no",
                 "Totaly",
                 "Ask Hyper he might know",
-                "Maybe next year"]
+                "Maybe next year",
+                "Don't count on it",
+                "It is certain",
+                " It is decidedly so.",
+                "Most likely.",
+                "My sources say no.",
+                "Outlook good.",
+                "Reply hazy, try again.",
+                "Signs point to yes.",
+                "Very doubtful.",
+                "Without a doubt.",
+                "Yes.",
+                "Yes – definitely.",
+                "You may rely on it.",]
     await ctx.send(f'Question: {question}\nAnswer: {random.choice(responses)}')
 
 @client.command()
